@@ -11,14 +11,24 @@
 
 <div class="vertical-menu">
   <a href="index.html" class="active">Home</a>
+
+ <div id="area">
+    <form id="Informe dados" autocomplete="off">
+      <fieldset>
+        <legend>Formulário</legend>
+        <label>Nome:</label><input class="campo_nome" type="text"><br>
+        <label>Email:</label><input class="campo_email" type="password"><br>
+        <label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
+        <input class="btn_submit" type="submit" value="Enviar">
+      </fieldset>
+    </form>
+  </div>
   
   
 </div>
 <h1> Jean Lima de Souza Junior</h1>
 <img width="200px" height="200px" src="https://scontent.frec10-1.fna.fbcdn.net/v/t1.0-
-
 9/25591823_1693519980700998_2917990397944708710_n.jpg?
-
 _nc_cat=0&oh=d51112cf6c920594cf16f6a62e8ede9a&oe=5BFADEED"/> <br>
 <p1>20 anos<br>
 Cursando Engenharia de Software 4º Semestre<br>
@@ -29,10 +39,40 @@ Cursando Engenharia de Software 4º Semestre<br>
 margin: 0 auto;
 width: 30%; /* Valor da Largura */
 }
+
+#area
+
+legend
+{
+  font-style:bold;
+  font-family: "Segoe UI";
+}
+#formulario label
+{
+  position:absolute;
+  left:19px;
+  margin-right:5px;
+}
+ 
+ 
+#formulario input.campo_nome
+{
+  position:absolute;
+  left:95px;
+  top:23px;
+  width:225px;
+}
+#formulario input.campo_email
+{
+  position:absolute;
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+
 </style>
 
 
 
 </body>
 </html>
-© 2018 GitHub, Inc.
